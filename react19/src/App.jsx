@@ -7,11 +7,22 @@ import {StyledForm} from './StyledForm'
 import {CandidateProfile} from './CandidateProfile'
 import {Product} from './Product'
 import {Greeting} from './Greeting'
+import {UserDetails} from './UserDetails'
 import './App.css'
 
 function App() {
   return (
     <div>
+      <UserDetails name="Bruce Wayne" 
+      isOnline={true} 
+      isPremium={true} 
+      isNew={true}
+      role = {"vip"}/>
+      <UserDetails name="Clark Kent" 
+      isOnline={true} 
+      hideOffline ={true} 
+      role={"admin"}/>
+      <UserDetails />
       <Greeting />
 
       <Product 
