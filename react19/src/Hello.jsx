@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Hello = () => {
     return (
-        <div id: container>
+        <div id="container">
             <h1>Hello Mik</h1>
         </div>
     )
