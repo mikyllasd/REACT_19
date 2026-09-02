@@ -8,12 +8,15 @@ import {CandidateProfile} from './CandidateProfile'
 import {Product} from './Product'
 import {Greeting} from './Greeting'
 import {UserDetails} from './UserDetails'
+import {ProductList} from './ProductList'
 import './App.css'
 
 function App() {
   return (
     <div>
-      <UserDetails name="Bruce Wayne" 
+
+      <ProductList />
+      {/* <UserDetails name="Bruce Wayne" 
       isOnline={true} 
       isPremium={true} 
       isNew={true}
@@ -42,7 +45,7 @@ function App() {
       <UserProfile />
        <Hello />
        <HelloWithoutJSX />
-      <Button />
+      <Button /> */}
 
     </div>
   );
