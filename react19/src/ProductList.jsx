@@ -16,7 +16,7 @@ export const ProductList = () => {
     const productElements = products.filter((product)=>{
         return product.price > 150}).map((product)=>{
                     return(
-                  <div>
+                  <div key ={product.id}>
                     <p>{product.name}</p>
                     <p>{product.id}</p>
                     <p>Price &{product.price}</p>
