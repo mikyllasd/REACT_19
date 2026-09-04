@@ -9,13 +9,15 @@ import {Product} from './Product'
 import {Greeting} from './Greeting'
 import {UserDetails} from './UserDetails'
 import {ProductList} from './ProductList'
+import {Alert} from './Alert'
 import './App.css'
 
 function App() {
   return (
     <div>
-
-      <ProductList />
+      <Alert>Your changes have been saved</Alert>
+      <Alert type = "error">Your changes have been saved</Alert>
+      {/* <ProductList /> */}
       {/* <UserDetails name="Bruce Wayne" 
       isOnline={true} 
       isPremium={true} 
