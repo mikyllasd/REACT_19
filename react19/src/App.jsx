@@ -12,12 +12,14 @@ import {ProductList} from './ProductList'
 import {Alert} from './Alert'
 import {CustomButton} from './CustomButton'
 import { Login } from './Login'
+import { Counter } from './Counter'
 import './App.css'
 
 function App() {
   return (
     <div>
-      <Login />
+      <Counter />
+      {/* <Login /> */}
       {/* <CustomButton /> */}
       {/* <Alert>Your changes have been saved</Alert>
       <Alert type = "error">Your changes have been saved</Alert> */}
